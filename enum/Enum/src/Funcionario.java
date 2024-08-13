@@ -6,14 +6,16 @@ public class Funcionario {
     private Setor setor;
     private Genero genero;
     private int idade;
+    private UnidadeFederativa uf;
 
-    public Funcionario(int id, String nome, double salario, Setor setor, Genero genero, int idade) {
+    public Funcionario(int id, String nome, double salario, Setor setor, Genero genero, int idade, UnidadeFederativa uf) {
         this.id = id;
         this.nome = nome;
         this.salario = salario;
         this.setor = setor;
         this.genero = genero;
         this.idade = idade;
+        this.uf = uf;
     }
     public int getId() {
         return id;
@@ -32,6 +34,12 @@ public class Funcionario {
     }
     public void setSalario(double salario) {
         this.salario = salario;
+    }
+    public UnidadeFederativa getUnidadeFederativa(){
+        return uf;
+    }
+    public void setUf(UnidadeFederativa uf){
+        this.uf = uf;
     }
     public Setor getSetor() {
         return setor;
