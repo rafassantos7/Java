@@ -64,5 +64,10 @@ public class Endereco1908 {
         this.uf = uf;
     }
 
+    @Override
+    public String toString() {
+        return "\nLogradouro: " + logradouro + "\nNumero: " + numero + "\nComplemento: " + complemento
+                + "\nCep: " + cep + "\nCidade: " + cidade + "\n Uf: " + uf.getNome() + "/" + uf.getSigla();
+    }
     
 }

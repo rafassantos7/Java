@@ -22,5 +22,10 @@ public String getTelefone() {
 public void setTelefone(String telefone) {
     this.telefone = telefone;
 }
+
+@Override
+public String toString() {
+    return "Pessoa [nome=" + nome + ", telefone=" + telefone + "]";
+}
     
 }

@@ -1,6 +1,6 @@
 public enum UnidadeFederativa1908 {
     BAHIA("Bahia","BA"),
-    SAO_PAULO("Sao Paulo"),
+    SAO_PAULO("Sao Paulo", "SP"),
     RIO_DE_JANEIRO("Rio de Janeiro","RJ");
 
     private String nome;
