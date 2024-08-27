@@ -1,8 +1,7 @@
-public class Divisao2608 implements OperacaoMatematica2608 {
+public class Divisao2608 implements OperacaoMatematica2608{
 
     @Override
     public double calcular(double a, double b) {
-    return a/b;
-    }
-
+        return a/b;
+}
 }
